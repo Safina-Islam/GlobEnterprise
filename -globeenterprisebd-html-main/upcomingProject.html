@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Upcomimg Project | M/S. GLOBE ENTERPRISE</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Rubik:wght@500;600;700&display=swap"
+            rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+        <style>
+            .table-container {
+                margin: 40px auto;
+                max-width: 90%;
+                text-align: center;
+            }
+
+            .table-container h1 {
+                font-size: 2rem;
+                color: #002855;
+                margin-bottom: 20px;
+            }
+
+            .table-wrapper {
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                /* Smooth scrolling for mobile devices */
+                background: #fff;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                min-width: 600px;
+                /* Ensures table is scrollable on small screens */
+            }
+
+            thead {
+                background-color: #c3002f;
+                color: #fff;
+            }
+
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 12px;
+                text-align: center;
+            }
+
+            tbody tr:nth-child(odd) {
+                background-color: #f2f2f2;
+            }
+
+
+            th {
+                font-size: 1rem;
+                text-transform: uppercase;
+            }
+
+            td {
+                font-size: 0.9rem;
+                word-wrap: break-word;
+                /* Handles long text gracefully */
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-custom-dark px-0">
+            <div class="row g-0 d-none d-lg-flex">
+                <div class="col-lg-6 ps-5 text-start">
+                    <div class="h-100 d-inline-flex align-items-center text-white">
+                        <span>Follow Us:</span>
+                        <a class="btn btn-link text-light" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-link text-light" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-link text-light" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-link text-light" href=""><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-end">
+                    <div class="h-100 topbar-right d-inline-flex align-items-center text-white py-2 px-5">
+                        <span class="fs-5 fw-bold me-2"><i class="fab fa-whatsapp me-2"></i></span>
+                        <span class="fs-5 fw-bold">+88 01722-205564</span>,
+                        <span class="fs-5 fw-bold">+88 01722-205564</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
+            <a href="index.html" class="navbar-brand ps-5 me-0">
+                <img src="img/logo.png" class="img-fluid" alt="">
+            </a>
+            <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
+                        <div class="dropdown-menu bg-light m-0">
+                            <a href="aboutUs.html" class="dropdown-item">Company Information</a>
+                            <a href="chooseUs.html" class="dropdown-item"> Why Choose Us</a>
+                            <a href="missionvission.html" class="dropdown-item"> Vision & Mission</a>
+                        </div>
+                    </div>
+                    <a href="ogranogram.html" class="nav-item nav-link">Organogram</a>
+
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu bg-light m-0">
+                            <a href="steelBuilding.html" class="dropdown-item">Steel Building</a>
+                            <a href="interior.html" class="dropdown-item">Interiors Design</a>
+                            <a href="civilWorks.html" class="dropdown-item">Civil Works</a>
+                        </div>
+                    </div>
+                    <a href="resourse.html" class="nav-item nav-link">Resource</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Projects</a>
+                        <div class="dropdown-menu bg-light m-0">
+                            <a href="runningProject.html" class="dropdown-item">Running projects</a>
+                            <a href="upcomingProject.html" class="dropdown-item">Upcoming Projects</a>
+                            <a href="completedProject.html" class="dropdown-item">Completed Projects</a>
+                        </div>
+                    </div> <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <a href="" class="btn btn-primary px-3 d-none d-lg-block">Get A Quote</a>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+        <!-- Page Header Start -->
+        <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <h1 class="display-3 text-white animated slideInRight">Projects</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb animated slideInRight mb-0">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item">Projects</li>
+                        <li class="breadcrumb-item active" aria-current="page">Upcoming Projects</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <!-- Page Header End -->
+
+        <!-- Project Start -->
+        <div class="container-fluid py-5 my-5 px-0">
+            <div class="text-center mx-auto wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="fw-medium text-uppercase text-primary mb-2">Our Projects</p>
+                <h1 class="display-5 mb-5">See What are the Upcoming Projects</h1>
+            </div>
+            <div class="owl-carousel project-carousel bg-dark wow fadeIn" data-wow-delay="0.1s">
+                <a class="project-item" href="">
+                    <img class="img-fluid" src="img/project-1.jpg" alt="">
+                    <div class="project-title">
+                        <h5 class="text-white mb-0">Local Spec Warehouse</h5>
+                    </div>
+                </a>
+                <a class="project-item" href="">
+                    <img class="img-fluid" src="img/project-2.jpg" alt="">
+                    <div class="project-title">
+                        <h5 class="text-white mb-0">Cricket Pavilion</h5>
+                    </div>
+                </a>
+                <a class="project-item" href="">
+                    <img class="img-fluid" src="img/project-3.jpg" alt="">
+                    <div class="project-title">
+                        <h5 class="text-white mb-0">Re-drying plant</h5>
+                    </div>
+                </a>
+                <a class="project-item" href="">
+                    <img class="img-fluid" src="img/project-4.jpg" alt="">
+                    <div class="project-title">
+                        <h5 class="text-white mb-0">PMD office renovation</h5>
+                    </div>
+                </a>
+                <a class="project-item" href="">
+                    <img class="img-fluid" src="img/project-5.jpg" alt="">
+                    <div class="project-title">
+                        <h5 class="text-white mb-0">Farid ATMO Design </h5>
+                    </div>
+                </a>
+                <a class="project-item" href="">
+                    <img class="img-fluid" src="img/project-6.jpg" alt="">
+                    <div class="project-title">
+                        <h5 class="text-white mb-0">Leaf Warehouse</h5>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                        <p class="fw-medium text-uppercase text-primary mb-2">Few More</p>
+                        <h1 class="display-5 mb-4">An Overview of Our Experties</h1>
+                    </div>
+
+                    <div class="table-container">
+                        <div class="table-wrapper">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>S.L</th>
+                                        <th>Project Name</th>
+                                        <th>Location</th>
+                                        <th>Client</th>
+                                        <th>Area</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>01</td>
+                                        <td>Local Spec Warehouse</td>
+                                        <td>SAVAR</td>
+                                        <td>British American Tobacco</td>
+                                        <td>60000 Sft</td>
+                                    </tr>
+                                    <tr>
+                                        <td>02</td>
+                                        <td>Cricket Pavilion</td>
+                                        <td>BATB Dhaka Mohakhali</td>
+                                        <td>British American Tobacco</td>
+                                        <td>5000 Sft</td>
+                                    </tr>
+                                    <tr>
+                                        <td>03</td>
+                                        <td>Re-drying plant</td>
+                                        <td>Manikgonj</td>
+                                        <td>British American Tobacco</td>
+                                        <td>15000 Sft</td>
+                                    </tr>
+                                    <tr>
+                                        <td>04</td>
+                                        <td>Fivex Plant with Utility Building</td>
+                                        <td>Manikgonj</td>
+                                        <td>British American Tobacco</td>
+                                        <td>9000 Sft</td>
+                                    </tr>
+                                    <tr>
+                                        <td>05</td>
+                                        <td>Rangpur Bungalow Renovation Works</td>
+                                        <td>RANGPUR CO BAZAR</td>
+                                        <td>British American Tobacco</td>
+                                        <td>3000 Sft</td>
+                                    </tr>
+                                    <tr>
+                                        <td>06</td>
+                                        <td>Mld Lab & Office Renovation Works</td>
+                                        <td>KUSHTIA</td>
+                                        <td>British American Tobacco</td>
+                                        <td>3150 Sft</td>
+                                    </tr>
+                                    <tr>
+                                        <td>07</td>
+                                        <td>BATB-Barisal Area Trade Marketing Office</td>
+                                        <td>CNB Road, Barisal Sadar</td>
+                                        <td>British American Tobacco</td>
+                                        <td>3000 Sft</td>
+                                    </tr>
+                                    <tr>
+                                        <td>08</td>
+                                        <td>Bogura ATMO Transit Renovation Works</td>
+                                        <td>Bogura Banani Bypass-2</td>
+                                        <td>British American Tobacco</td>
+                                        <td>4500 Sft</td>
+                                    </tr>
+                                    <tr>
+                                        <td>09</td>
+                                        <td>BATB-SMD 1 Washroom Renovation</td>
+                                        <td>BATB Dhaka Mohakhali</td>
+                                        <td>British American Tobacco</td>
+                                        <td>950 Sft</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>BATB-PMD Washroom Renovation</td>
+                                        <td>BATB Dhaka Mohakhali</td>
+                                        <td>British American Tobacco</td>
+                                        <td>1050 Sft (Approx)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>PMD Office Renovation Works</td>
+                                        <td>BATB Dhaka Mohakhali</td>
+                                        <td>British American Tobacco</td>
+                                        <td>1250 Sft</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td>PMD Meeting Room Renovation Works</td>
+                                        <td>BATB Dhaka Mohakhali</td>
+                                        <td>British American Tobacco</td>
+                                        <td>550 Sft</td>
+                                    </tr>
+                                    <tr>
+                                        <td>13</td>
+                                        <td>PMD Mezzanine Floor Renovation Works</td>
+                                        <td>BATB Dhaka Mohakhali</td>
+                                        <td>British American Tobacco</td>
+                                        <td>1290 Sft (Approx)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14</td>
+                                        <td>Farid ATMO Design</td>
+                                        <td>BATB Faridpur</td>
+                                        <td>British American Tobacco</td>
+                                        <td>3500 Sft</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15</td>
+                                        <td>Green Leaf Threshing Plant, FG Warehouse</td>
+                                        <td>BATB, GLTP Kushtia</td>
+                                        <td>British American Tobacco</td>
+                                        <td>34500 Sft</td>
+                                    </tr>
+                                    <tr>
+                                        <td>16</td>
+                                        <td>Leaf Warehouse</td>
+                                        <td>BATB Jhenaidha</td>
+                                        <td>British American Tobacco</td>
+                                        <td>14500 Sft</td>
+                                    </tr>
+                                    <tr>
+                                        <td>17</td>
+                                        <td>Leaf Warehouse</td>
+                                        <td>BATB Allahardorga</td>
+                                        <td>British American Tobacco</td>
+                                        <td>21004 Sft</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18</td>
+                                        <td>Golf Field & Family Corner</td>
+                                        <td>BATB Mirpur</td>
+                                        <td>British American Tobacco</td>
+                                        <td>39500 Sft</td>
+                                    </tr>
+                                    <tr>
+                                        <td>19</td>
+                                        <td>Production Warehouse</td>
+                                        <td>Konabari, Gazipur</td>
+                                        <td>Mutual Food Products Ltd</td>
+                                        <td>25000 Sft</td>
+                                    </tr>
+                                    <tr>
+                                        <td>20</td>
+                                        <td>Candy Factory Infrastructures and Utilities Facilities</td>
+                                        <td>Narayangonj</td>
+                                        <td>Bangla CAT</td>
+                                        <td>3500 Sft</td>
+                                    </tr>
+                                    <tr>
+                                        <td>21</td>
+                                        <td>Warehouse Making, Utilities Service & Different Services</td>
+                                        <td>Chittagong Factory</td>
+                                        <td>Reckitt Benckiser</td>
+                                        <td>4500 Sft, 3500 Sft</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project End -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-white mb-4">Our Office</h5>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i><b class="text-white">Registered
+                                Office:</b> 172/1, WapdaRoad, Rampura, Dhaka.</p>
+                        <p class="mb-3"><i class="fa fa-map-marker-alt me-3"></i><b class="text-white">Corporate
+                                Office:</b> House # 335 (Ground Floor),
+                            Road # 23, Mohakhali DOHS, Dhaka-1206</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+88 01713-0165040</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@globeenterprisebd.com</p>
+                        <div class="d-flex pt-3">
+                            <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
+                                    class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
+                                    class="fab fa-youtube"></i></a>
+                            <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <h5 class="text-white mb-4">Quick Links</h5>
+                        <a class="btn btn-link" href="aboutUs.html">About Us</a>
+                        <a class="btn btn-link" href="steelBuilding.html">Steel Building</a>
+                        <a class="btn btn-link" href="civilWorks.html">Civil Works</a>
+                        <a class="btn btn-link" href="interior.html">Interior Design</a>
+                        <a class="btn btn-link" href="upcomingProject.html">Upcoming Projects</a>
+                        <a class="btn btn-link" href="runningProject.html">Running Projects</a>
+                        <a class="btn btn-link" href="completedProject.html">Completed Projects</a>
+                        <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    </div>
+                    <div class="col-lg-2 col-md-4">
+                        <h5 class="text-white mb-4">Business Hours</h5>
+                        <p class="mb-1">Monday - Friday</p>
+                        <h6 class="text-light">09:00 am - 07:00 pm</h6>
+                        <p class="mb-1">Saturday</p>
+                        <h6 class="text-light">09:00 am - 12:00 pm</h6>
+                        <p class="mb-1">Sunday</p>
+                        <h6 class="text-light">Closed</h6>
+                    </div>
+                    <div class="col-lg-4 col-md-8">
+                        <h5 class="text-white mb-4">Map</h5>
+                        <iframe class="w-100"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.879071412871!2d90.39667941535931!3d23.81017908468233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7f871b07bbd%3A0x5f25c9a171a5cbfe!2sHouse%20%23335%20(Ground%20Floor)%2C%20Road%20%2323%2C%20Mohakhali%20DOHS%2C%20Dhaka-1206!5e0!3m2!1sen!2sbd!4v1683323645404!5m2!1sen!2sbd"
+                            frameborder="0" style="height: 250px; border:0;" allowfullscreen="" aria-hidden="false"
+                            tabindex="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container text-center">
+                <p class="mb-2">Copyright &copy; <script>document.write(new Date().getFullYear());</script> M/S. Globe Enterprise. All Rights Reserved. Design & Developed by <a
+                        class="fw-semi-bold" href="https://chromosysbd.com/" target="_blank">Chromosys Bd.</a></p>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+                class="bi bi-arrow-up"></i></a>
+
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
